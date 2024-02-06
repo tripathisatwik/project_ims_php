@@ -2,7 +2,7 @@
 // database connection 
 function doConnection(){
     // creates database connection
-    $connection = mysqli_connect("localhost", "sixdgt", "1234", "project_ims_php");
+    $connection = mysqli_connect("localhost", "root", "", "project_ims_php");
     return $connection;
 }
 
@@ -25,4 +25,14 @@ function getUserByUsername($connection, $param_username){
         }
     }
     return $response;
+}
+
+function registerUser($connection, $sql){
+    $status = false;
+
+    $res = mysqli_query($connection, $sql);
+    if($res){
+        $status = true;
+    }
+    return $status;
 }

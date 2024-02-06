@@ -1,8 +1,8 @@
 <?php
 // defining database configuration properties
 $localhost = "localhost"; // we can also define 127.0.0.1 
-$user = "sixdgt"; // database user
-$password = "1234"; // database user password
+$user = "root"; // database user
+$password = ""; // database user password
 
 // redirect function
 function redirect(){
