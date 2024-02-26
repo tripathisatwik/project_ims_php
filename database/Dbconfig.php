@@ -1,8 +1,8 @@
 <?php
 // global variable in php
 define("DB_HOST", "localhost");
-define("DB_USER", "root");
-define("DB_PASSWORD", "");
+define("DB_USER", "sixdgt");
+define("DB_PASSWORD", "1234");
 define("DB_NAME", "project_ims_php");
 
 // databse connection config class

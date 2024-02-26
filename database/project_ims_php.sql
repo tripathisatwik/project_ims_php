@@ -136,3 +136,19 @@ CREATE TABLE ims_enroll_student(
     FOREIGN KEY (user_id) REFERENCES ims_user(user_id),
     FOREIGN KEY (course_enroll_id) REFERENCES ims_course_enroll(course_enroll_id)
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

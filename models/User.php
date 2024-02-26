@@ -67,7 +67,7 @@ class User {
 $user = new User();
 
 // storing value to attribute
-$user->setEmail("hello@gmail.com");
+$user->setEmail("hello@gmaail.com");
 
 // accessing value of attribute
 echo $user->getEmail();
